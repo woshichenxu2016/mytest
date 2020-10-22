@@ -9,7 +9,9 @@
     "lint": "eslint script"
   },
   "husky": {
-    "pre-commit": "eslint script"
+    "hooks": {
+      "pre-commit": "eslint script"
+    }
   },
   "repository": {
     "type": "git",
