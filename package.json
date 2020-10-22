@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "sh shell/a.sh"
   },
+  "husky": {
+    "pre-commit": "sh shell/a.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/woshichenxu2016/mytest.git"
